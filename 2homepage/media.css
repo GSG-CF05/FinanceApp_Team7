@@ -1,0 +1,15 @@
+/*mobile*/
+
+@media (min-width: 767px) {
+  .mobile-icons {
+    display: none;
+  }
+  .more-icon {
+    display: none;
+  }
+  .logo-Profile {
+    margin: 0 auto;
+    justify-content: center;
+    padding: 2rem 0;
+  }
+}
