@@ -45,7 +45,6 @@ nav {
 }
 nav .more-icon {
   margin: 61px 20px 20px 0;
-  
 }
 .nav-bar-desk-top {
   display: none;
@@ -57,3 +56,120 @@ nav .more-icon {
   display: none;
 }
 /* end the header  */
+/* start the main  */
+main {
+  margin: 28px 26px;
+}
+/* start the sectoin wallet  */
+.the-wallet {
+  display: flex;
+  box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 16px;
+}
+.button-wallet a {
+  display: block;
+}
+.the-wallet figure {
+  margin: 21px 18px 21px 13px;
+}
+.your-balance {
+  margin: 51px 13px 21px 0;
+}
+.your-balance h2 {
+  margin: 0 10px 20px 0;
+}
+.wallet-img img {
+  margin-top: 5px;
+  margin-right: 10px;
+}
+.wallet-img span {
+  position: relative;
+  bottom: 5px;
+}
+.button-wallet {
+  margin: 76px 13px 10px 0;
+}
+.button-wallet a:first-child {
+  margin-bottom: 36px;
+}
+/* end the the-wallet */
+/* start section cards  */
+.cards {
+  display: flex;
+  justify-content: center;
+}
+.card img {
+  display: block;
+  margin: auto;
+  padding: 17.0944px;
+}
+.card h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 15.385px;
+  line-height: 21px;
+  padding-bottom: 17.0944px;
+}
+.card {
+  margin: 28px 15px 0 0;
+  background: #ded2f9;
+  border-radius: 15px;
+  width: 30%;
+}
+.card a {
+  color: #000;
+  text-decoration: none;
+}
+.color-card3 {
+  background-color: #fdc9d2;
+}
+.color-card2 {
+  background-color: #d3e1ff;
+}
+/* end the card section  */
+/* start section activity  */
+.activity {
+  margin: 28px 12px 0 0px;
+}
+.activity h3 {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 108%;
+  letter-spacing: -0.5px;
+}
+.shopping {
+  display: flex;
+  justify-content: space-between;
+}
+.pay {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  background-color: #f4f7fa;
+  border-radius: 10px;
+}
+.pay div {
+  display: flex;
+}
+.pay div img {
+  width: 37px;
+  height: 37px;
+  margin-top: 12px;
+}
+.pay h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  margin-top: 16px;
+  margin-left: 13px;
+}
+.pay p {
+  margin-top: 18px;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: -0.5px;
+  padding-right: 10px;
+}
+/* end the section activity */
