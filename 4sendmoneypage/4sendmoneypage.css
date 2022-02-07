@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    display: flex;
+
+}
+.upperIcons{
+    display: flex;
+    justify-content: space-between;
+    padding: 7.33px 0 0 21px;
+}
+.time{
+ 
+}
+.icons{
+    padding-right: 14.73px;
+    
+}
+.pageHead{
+    display: flex;
+    flex-direction: row;
+
+}
+.backButton{
+    display: flex;
+    align-self:flex-end;
+
+}
+.pageTitle{
+    text-align: center;
+    color:;
+
+}
