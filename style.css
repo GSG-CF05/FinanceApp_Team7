@@ -1,57 +1,59 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .mobile-icons {
-    display: flex;
-    justify-content: space-between;
-    padding: 7px 5px 0px 20px;
-  }
-  .title {
-    text-align: center;
-    padding-top: 20px;
-    padding-bottom: 64px;
-  }
-  figcaption {
-    margin-top: 32px;
-    margin: auto;
-    text-align: center;
-  }
-  figcaption p {
-    max-width: 217px;
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 18px;
-    line-height: 24px;
-  }
-  button {
-    width: 305px;
-    height: 54px;
-    margin: 64px 43px 72.5px 27px;
-    background: #6f6cd9;
-  }
-  .homeindicator {
-    margin: 59.5px 120px 8px 121px;
-  }
-  figure {
-    display: flex;
-    flex-direction: column;
-  }
-  figcaption h4 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 108%;
-    margin-bottom: 16px;
-    margin-top: 32px;
-  }
-  button a {
-    text-decoration: none;
-    color: white;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mobile-icons {
+  display: flex;
+  justify-content: space-between;
+  padding: 7px 5px 0px 20px;
+}
+.title {
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 64px;
+}
+figcaption {
+  margin-top: 32px;
+  margin: auto;
+  text-align: center;
+}
+figcaption p {
+  max-width: 217px;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+}
+button {
+  width: 305px;
+  height: 54px;
+  margin: 64px 43px 72.5px 27px;
+  background: #6f6cd9;
+}
+.homeindicator {
+  margin: 59.5px 120px 8px 121px;
+}
+figure {
+  display: flex;
+  flex-direction: column;
+}
+figcaption h4 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 108%;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+button a {
+  text-decoration: none;
+  color: white;
+}
+figure img {
+  height: 280px;
+}
