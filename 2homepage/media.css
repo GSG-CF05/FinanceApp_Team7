@@ -3,11 +3,13 @@
 @media (min-width: 767px) {
   /* تم التعديل  */
   /* start the header  */
+  body {
+    display: flex;
+  }
   header {
     background-color: white;
-    width: 10%;
+    width: 25%;
     position: relative;
-    left: 100px;
     /* right: 252px; */
     top: 100px;
     margin-top: 0px;
@@ -35,10 +37,8 @@
     margin-bottom: 30px;
     position: relative;
     width: 00px;
-    height: 00px;
     animation-name: example;
     animation-duration: 10s;
-    background-image: url(../images/header-home.gif);
     background-size: cover;
     animation-iteration-count: 3000;
     box-shadow: 0px 8px 16px -2px rgba(230, 46, 13, 0.747);
@@ -83,6 +83,7 @@
     top: 0;
     width: 25%;
     right: 0;
+    margin: 0;
     /* position: static; */
     box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
     left: 0;
@@ -96,7 +97,6 @@
     position: static;
     animation-name: none;
     width: 100%;
-    height: 100%;
     box-shadow: none;
     background-image: none;
   }
@@ -109,7 +109,9 @@
   }
   .hover-me {
     padding-top: 100%;
-    text-align: center;
+    /* text-align: end; */
+
+    margin-left: 100px;
     color: #da3535;
     font-size: 18px;
     text-shadow: 2px 2px 4px #a4cb2e;
@@ -121,4 +123,23 @@
     display: none;
   }
   /* end the header  */
+  /* start the main  */
+  main {
+    display: flex;
+    margin-left: 10px;
+    height: 100%;
+  }
+  /* start the wallet section  */
+  .the-wallet {
+    width: 100%;
+  }
+  /* end the wallet section  */
+  /* start the cards section  */
+  .cards {
+    padding-left: 80px;
+  }
+  .card {
+    margin-left: 25px;
+    width: 133px;
+  }
 }
