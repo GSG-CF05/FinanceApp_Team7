@@ -59,7 +59,7 @@
     margin: 0;
   }
   .nav-bar {
-    height: 76vh;
+    height: 63vh;
     opacity: 0;
   }
   /* تم التعديل  */
@@ -111,14 +111,16 @@
     padding-top: 100%;
     /* text-align: end; */
 
-    margin-left: 100px;
+    margin-left: 150px;
     color: #da3535;
     font-size: 18px;
     text-shadow: 2px 2px 4px #a4cb2e;
     display: block;
     line-height: -0.5px;
   }
-
+  .hover-me img {
+    transform: rotateY(180deg);
+  }
   header:hover .hover-me {
     display: none;
   }
@@ -127,11 +129,13 @@
   main {
     display: flex;
     margin-left: 10px;
+    flex-wrap: wrap;
+
     height: 100%;
   }
   /* start the wallet section  */
   .the-wallet {
-    width: 100%;
+    width: 40%;
   }
   /* end the wallet section  */
   /* start the cards section  */
@@ -141,5 +145,9 @@
   .card {
     margin-left: 25px;
     width: 133px;
+  }
+  .activity {
+    width: 100%;
+    margin-top: 60px;
   }
 }
