@@ -5,6 +5,7 @@
   font-family: 'Montserrat', sans-serif;
   transition: 1s ease all;
 }
+
 /* start header  */
 header {
   background-color: #d0f1eb;
@@ -173,3 +174,27 @@ main {
   padding-right: 10px;
 }
 /* end the section activity */
+/* start the footer  */
+footer {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  border-radius: 5px 5px 0px 0px;
+  box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.05);
+  background-color: white;
+  bottom: -26px;
+  width: 100%;
+}
+footer img {
+  display: block;
+  margin: auto;
+  position: relative;
+}
+
+footer h4 {
+  padding-bottom: 50px;
+  position: relative;
+}
+.opastiy {
+  opacity: 50%;
+}

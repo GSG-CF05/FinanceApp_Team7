@@ -150,4 +150,7 @@
     width: 100%;
     margin-top: 60px;
   }
+  footer {
+    display: none;
+  }
 }
