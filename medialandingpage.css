@@ -18,4 +18,9 @@
       display: block;
       margin: 30px auto;
   }
+  .homeindicator{
+      display: block;
+      margin: auto;
+      padding-bottom: 10px;
+  }
 }
