@@ -19,7 +19,7 @@ figcaption {
   margin-top: 32px;
   margin: auto;
   text-align: center;
-  margin-bottom: 65px;
+ 
 }
 figcaption p {
   max-width: 217px;
@@ -32,7 +32,7 @@ figcaption p {
 button {
   width: 305px;
   height: 54px;
-  /* margin: 64px 43px 72.5px 27px; */
+  margin: 64px 43px 72.5px 27px; 
   background: #6f6cd9;
   margin-bottom: 145px !important;
   border-radius: 4px;
@@ -42,10 +42,9 @@ button {
   
 }
 .homeindicator {
-  display: block;
-  margin: 0 auto;
 
-  /*margin: 59.5px 120px 8px 121px;*/
+
+margin: 59.5px 120px 8px 121px;
 }
 figure {
   display: flex;

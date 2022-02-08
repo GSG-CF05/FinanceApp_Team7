@@ -1,4 +1,4 @@
-@media (min-width: 700px) {
+@media (min-width: 767px) {
   .mobile-icons {
     display: none;
   }
@@ -8,8 +8,7 @@
     text-shadow: 1px 1px 2px #c4971b;
   }
   figure img {
-    width: 50%;
-    height: auto;
+    width: 30%;
     display: block;
     margin: auto;
     border-radius: 50%;
