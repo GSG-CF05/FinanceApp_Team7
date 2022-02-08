@@ -1,0 +1,22 @@
+@media (min-width: 767px){
+.upperIcons{
+    display: none;
+}
+.backButton {
+    display: none;
+    }
+    .backButton1{
+        display: block;
+        
+    }
+    .backButton1 h1{
+        text-align: center;
+        padding-top: 100px;
+    }
+    .cards{
+        box-shadow: none;
+    }
+    .creditCard{
+        box-shadow: 0px 8px 16px -2px rgba(0, 0, 0, 0.12);
+    }
+}
