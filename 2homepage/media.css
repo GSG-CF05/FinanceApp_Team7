@@ -49,6 +49,9 @@
   .more-icon {
     display: none;
   }
+  .logo {
+    width: 500px;
+  }
   .logo-Profile {
     justify-content: flex-end;
     padding: 2rem 0;
@@ -59,7 +62,7 @@
     margin: 0;
   }
   .nav-bar {
-    height: 63vh;
+    height: 72vh;
     opacity: 0;
   }
   /* تم التعديل  */
@@ -75,9 +78,9 @@
     height: 50px;
   }
   .nav-bar-desk-top h3 {
-    padding-top: 15px;
-    text-align: start;
-    margin: auto;
+    padding-top: 13px;
+    text-align: center;
+    margin-left: 70px;
   }
   header:hover {
     top: 0;
@@ -106,6 +109,11 @@
   }
   .opastiy {
     opacity: 50%;
+    margin-left: 82px !important;
+  }
+  .opasty-img {
+    width: 35px !important;
+    height: 35px !important;
   }
   .hover-me {
     padding-top: 100%;
@@ -120,6 +128,7 @@
   }
   .hover-me img {
     transform: rotateY(180deg);
+    width: 100px;
   }
   header:hover .hover-me {
     display: none;
@@ -129,6 +138,7 @@
   main {
     display: flex;
     margin-left: 10px;
+    margin-top: 100px;
     flex-wrap: wrap;
 
     height: 100%;
@@ -144,6 +154,7 @@
   }
   .card {
     margin-left: 25px;
+    margin-bottom: 20px;
     width: 133px;
   }
   .activity {
@@ -151,6 +162,13 @@
     margin-top: 60px;
   }
   footer {
+    display: none;
+  }
+  /* end the footer  */
+  .scrol {
+    display: none;
+  }
+  .line-img {
     display: none;
   }
 }
