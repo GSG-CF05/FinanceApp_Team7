@@ -63,7 +63,6 @@
   }
   .nav-bar {
     height: 72vh;
-    opacity: 0;
   }
   /* تم التعديل  */
   .nav-bar-desk-top {
@@ -108,7 +107,7 @@
     display: flex;
   }
   .opastiy {
-    opacity: 50%;
+    color: #979494;
     margin-left: 82px !important;
   }
   .opasty-img {
