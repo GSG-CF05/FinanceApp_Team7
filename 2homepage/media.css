@@ -5,7 +5,9 @@
   /* start the header  */
   body {
     display: flex;
+    transition: 5s ease all;
   }
+
   header {
     background-color: white;
     width: 25%;
@@ -30,7 +32,12 @@
       top: 0px;
     }
   }
-  /* تم التعديل  */
+
+  .home {
+    text-decoration: none;
+    font-size: 1.17em;
+    color: #000;
+  }
   nav {
     background-color: #d0f1eb;
     border-radius: 50%;
@@ -64,7 +71,7 @@
   .nav-bar {
     height: 72vh;
   }
-  /* تم التعديل  */
+
   .nav-bar-desk-top {
     display: flex;
     padding-left: 30px;
@@ -145,6 +152,7 @@
   /* start the wallet section  */
   .the-wallet {
     width: 40%;
+    justify-content: space-around;
   }
   /* end the wallet section  */
   /* start the cards section  */
@@ -159,6 +167,7 @@
   .activity {
     width: 100%;
     margin-top: 60px;
+    /* padding-bottom: 170px; */
   }
   footer {
     display: none;
@@ -169,5 +178,9 @@
   }
   .line-img {
     display: none;
+  }
+  .pay {
+    padding: 20px 15px;
+    background-color: #73a8df;
   }
 }
