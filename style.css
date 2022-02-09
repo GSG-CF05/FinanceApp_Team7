@@ -19,6 +19,7 @@ figcaption {
   margin-top: 32px;
   margin: auto;
   text-align: center;
+ 
 }
 figcaption p {
   max-width: 217px;
@@ -63,3 +64,4 @@ button a {
 figure img {
   height: 280px;
 }
+
