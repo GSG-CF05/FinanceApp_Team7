@@ -28,23 +28,21 @@ figcaption p {
   font-weight: normal;
   font-size: 18px;
   line-height: 24px;
+  margin-bottom: 65px;
 }
 button {
   width: 305px;
   height: 54px;
-  margin: 64px 43px 72.5px 27px; 
   background: #6f6cd9;
   margin-bottom: 145px !important;
   border-radius: 4px;
   outline: none;
   display: block;
-  margin:auto;
-  
+  margin: auto;
 }
 .homeindicator {
-
-
-margin: 59.5px 120px 8px 121px;
+  display: block;
+  margin: 0 auto;
 }
 figure {
   display: flex;
