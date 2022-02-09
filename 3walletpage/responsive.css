@@ -1,0 +1,72 @@
+@media (min-width: 767px) {
+  .upperIcons {
+    display: none;
+  }
+  body {
+    display: flex;
+  }
+  .the-body {
+    width: 75%;
+  }
+  .backButton {
+    justify-content: start;
+  }
+  .backButton h1 {
+    margin-left: 480px;
+    margin-top: 100px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px #c4971b;
+  }
+  .cards {
+    display: flex;
+    margin-top: 150px;
+    justify-content: space-around;
+  }
+  .the-footer {
+    display: none;
+  }
+  .fixed {
+    right: 500px;
+    bottom: 150px;
+  }
+  .nav-desktop {
+    width: 30%;
+    text-align: end;
+    border-radius: 12px !important;
+    box-shadow: 0px -10px 20px rgba(0, 0, 0, 0.05);
+    display: block;
+  }
+  .logo-Profile {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color: antiquewhite;
+    border-radius: 12px !important;
+  }
+  .nav-items {
+    margin-top: 50px;
+  }
+  .nav-bar-desk-top {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center !important;
+  }
+  .nav-bar-desk-top img {
+    margin-right: 50px;
+    width: 50px;
+    margin-bottom: 50px;
+  }
+  .nav-bar-desk-top h3 {
+    margin-right: 100px;
+    margin-top: 20px;
+  }
+  .nav-bar-desk-top a {
+    margin-top: 5px;
+    text-decoration: none;
+    color: black;
+  }
+  .icons-r {
+    display: none !important;
+  }
+}
